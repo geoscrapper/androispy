@@ -5,6 +5,8 @@ Androspy : is Backdoor Crypter & Creator with Automatic IP Poisener Coded By Bel
 
 # Installation
 ```
+
+git clone https://github.com/geoscrapper/androispy
 pip install androidspyeye
 cd androspy
 chmod +x setup.sh
