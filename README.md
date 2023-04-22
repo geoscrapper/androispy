@@ -17,7 +17,7 @@ sudo ./androspy.sh
 # screenshot
 ![androspy](https://raw.githubusercontent.com/TunisianEagles/Androspy/master/Screenshots/Screenshot%20at%202018-11-06%2016-44-57.png)
 # Tested on :
-* BackBox Linux
+* Windows 11
 * Kali linux
 * Parrot os
 # Tutorial
